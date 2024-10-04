@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Hoa len</title>
+    <link rel="shortcut icon" href="img/tulips.png" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Hoa bán lẻ", "Bó hoa len", "Phụ kiện len", "Len trang trí"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Sản phẩm hoa làm từ len là sự kết hợp độc đáo giữa nghệ thuật thủ công và sự tinh tế của thiên nhiên.
+                    Mỗi bông hoa được tạo nên từ những sợi len mềm mại, bền đẹp và có màu sắc phong phú. Sự tỉ mỉ trong
+                    từng mũi đan, từng chi tiết khiến cho hoa len trở thành món quà ý nghĩa, không chỉ mang lại vẻ đẹp
+                    vĩnh cửu mà còn chứa đựng tình cảm sâu sắc từ người làm đến người nhận.
+                </p>
+                <br />
+                <p>
+                    Chúng tôi luôn đặt chất lượng và sự hài lòng của khách hàng lên hàng đầu.
+                    Mỗi sản phẩm/dịch vụ đều được tạo ra với sự tỉ mỉ và sáng tạo, đảm bảo đáp
+                    ứng mọi nhu cầu và mong đợi của bạn. Với đội ngũ chuyên nghiệp, giá cả cạnh
+                    tranh và dịch vụ hậu mãi chu đáo, chúng tôi cam kết mang đến những trải nghiệm
+                    tuyệt vời nhất. Chọn chúng tôi, bạn sẽ không chỉ nhận được sản phẩm chất lượng
+                    mà còn là sự tận tâm và uy tín trong từng chi tiết.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
