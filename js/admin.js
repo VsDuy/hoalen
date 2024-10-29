@@ -468,41 +468,22 @@ function addKhungSuaSanPham(masp) {
             <th colspan="2">Thông số kĩ thuật</th>
         </tr>
         <tr>
-            <td>Màn hình:</td>
+            <td>Thương Hiệu:</td>
             <td><input type="text" value="`+ sp.detail.screen + `"></td>
         </tr>
         <tr>
-            <td>Hệ điều hành:</td>
+            <td>Chất liệu:</td>
             <td><input type="text" value="`+ sp.detail.os + `"></td>
         </tr>
         <tr>
-            <td>Camara sau:</td>
+            <td>Gửi từ:</td>
             <td><input type="text" value="`+ sp.detail.camara + `"></td>
         </tr>
         <tr>
-            <td>Camara trước:</td>
+            <td>Chiều dài:</td>
             <td><input type="text" value="`+ sp.detail.camaraFront + `"></td>
         </tr>
-        <tr>
-            <td>CPU:</td>
-            <td><input type="text" value="`+ sp.detail.cpu + `"></td>
-        </tr>
-        <tr>
-            <td>RAM:</td>
-            <td><input type="text" value="`+ sp.detail.ram + `"></td>
-        </tr>
-        <tr>
-            <td>Bộ nhớ trong:</td>
-            <td><input type="text" value="`+ sp.detail.rom + `"></td>
-        </tr>
-        <tr>
-            <td>Thẻ nhớ:</td>
-            <td><input type="text" value="`+ sp.detail.microUSB + `"></td>
-        </tr>
-        <tr>
-            <td>Dung lượng Pin:</td>
-            <td><input type="text" value="`+ sp.detail.battery + `"></td>
-        </tr>
+        
         <tr>
             <td colspan="2"  class="table-footer"> <button onclick="suaSanPham('`+ sp.masp + `')">SỬA</button> </td>
         </tr>
